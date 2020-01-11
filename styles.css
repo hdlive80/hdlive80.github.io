@@ -1,0 +1,44 @@
+#content {
+    max-width: 500px;
+    width: 70%;
+    margin: 0 auto;
+}
+#Name{
+    padding: .2em;
+    margin-left: 80px;
+}
+header {
+    background-color: dodgerblue;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    border-radius: 7.5px;
+    height:60px;
+    width:600px;
+}
+#photo img {
+    Height:200px; 
+    max-width: 30%;
+    float:right;
+    margin-top: -50px;
+    margin-right: 40px;
+}
+main {
+    font-family: sans-serif;
+    padding: .9em;
+}
+.line {
+    width: 580px;
+    height: 0px;
+    border: 1px solid black;
+}
+footer {
+    background-color: dodgerblue;
+    padding:.4em;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 7.5px;
+    width: 600px;
+    font-size: 8pt;
+    height: 60px;
+}
