@@ -9,7 +9,7 @@
 }
 header {
     background-color: dodgerblue;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: left;
     border-radius: 7.5px;
@@ -24,7 +24,7 @@ header {
     margin-right: 40px;
 }
 main {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: .9em;
 }
 .line {
@@ -35,7 +35,7 @@ main {
 footer {
     background-color: dodgerblue;
     padding:.4em;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     border-radius: 7.5px;
     width: 600px;
