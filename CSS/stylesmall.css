@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#content {
+    max-width: 40rem;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#Name{
+    padding: .3em;
+
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+h1{
+    font-size: 1.5rem;
+}
+
+#photo img {
+    Height:160px;
+    padding: .3em;
+    
+}
+main {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.line {
+    width: auto;
+    height: 0px;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 1rem;
+}
+footer {
+    background-color: dodgerblue;
+    padding:.4em;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 8pt;
+    
+}
