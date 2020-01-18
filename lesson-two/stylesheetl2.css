@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#contentL2 {
+    text-align: center;
+    line-height: 15px;
+    
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+h1 {
+    font-family: 'Libre Caslon Text', serif;
+
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: dodgerblue;
+    
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#S1 {
+    margin-top: 75px;
+}
+
+#lushss img {
+   height: 500px;
+   padding: 20px;
+   
+}
+
+#S2 {
+    margin-top: 100px;
+}
+
+#googless img {
+    border:2px solid #666;
+    height: 500px;
+    margin-top: 20px;
+}
+#S3 {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+#yahooss img { 
+    border:2px solid #666;
+    height: 500px;
+    margin-top: 20px;
+}
+footer {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    
+    
+}
