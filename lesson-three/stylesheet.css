@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-body {
+#body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 60rem;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
    
   }
   main {
