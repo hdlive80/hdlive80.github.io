@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+#body {
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+  main {
+    padding: 20px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  header {
+      background-color: dodgerblue;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+      
+      .navigation {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .navigation li {
+        display: none;
+      }
+      
+      .navigation li:first-child {
+        display: block;
+      }
+      
+      .navigation li a {
+        display: block;
+        background-color: darkgray;
+        color: white;
+        text-decoration: underline;
+        text-align: center;
+        padding: 1rem;
+      }
+    
+      .navigation a:hover {
+        color:gray;
+      }
+      
+    
+      a:active, a:visited{
+        color: white;
+    }
+
+      .responsive li {
+        display: block;
+      }
+      
+
+  h2{
+    color: dodgerblue;
+    font-size: 30px;
+  }
+  h3{
+    background-color: #f2f2f2;
+    padding: 10px;
+    padding-left: 10px;
+    color: gray;
+    border: dotted;
+    border-color: darkgray;
+    border-radius: 10px;
+  }
+ 
+  #logo{
+    height: 80px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: dodgerblue;
+  }
+  footer {
+      background-color: dodgerblue;
+      color: white;
+      padding: 5px;
+    text-align: center;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }

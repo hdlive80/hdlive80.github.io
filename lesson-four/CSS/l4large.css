@@ -1,0 +1,27 @@
+@media only screen and (min-width: 60em) {
+    .navigation{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        color: white;
+        list-style: none;
+        font-size: 20px;
+    }    
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
+
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+    footer{
+    border-radius: 10px;
+    }
+  }
+
+  
