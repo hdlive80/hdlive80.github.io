@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+body{
+    max-width: 400px;
+    margin:0 auto;
+}
+picture{
+    display:grid;
+    grid-gap:10px;
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    padding: 10px;
+  }
