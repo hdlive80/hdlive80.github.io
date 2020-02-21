@@ -20,13 +20,16 @@
       display: none;
     }
     
-    #pics{
+    #gallery{
         display:grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
         margin: 0, auto;
         justify-content: center;
         align-items: center;
+    }
+    #gallery img{
+      width:100%;
     }
 
     footer{

@@ -88,22 +88,25 @@ h1{
     margin-bottom:-10px;
   }
 
-#pics{
+#gallery{
     display:grid;
    
     
 }
-picture{
+#gallery img{
+  width: 100%;
+}
+.gallery-item{
     background-color: #2d545e;
     color:white;
-    padding-bottom: 10px;
+    
 }
-picture:hover {
+.gallery-item:hover {
   box-shadow: 0 0 50px #333;}
 
 body{
     max-width: 100%;
-    margin: 0, auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
