@@ -32,6 +32,10 @@
       width:100%;
     }
 
+    .gallery-item:hover {
+      box-shadow: 0 0 50px #333;
+    }
+
     footer{
     border-radius: 10px;
     }
