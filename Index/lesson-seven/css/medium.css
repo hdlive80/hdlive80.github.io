@@ -36,9 +36,11 @@
         margin: 0, auto;
         justify-content: center;
         align-items: center;
+    
     }
     #gallery img{
         width: 100%;
+        
     }
     #title{
         background-color: white;
