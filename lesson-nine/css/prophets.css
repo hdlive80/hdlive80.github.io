@@ -19,8 +19,10 @@ header{
 h2{
     color: #EAC67A;
 }
+
 div{
     margin-bottom: 10px;
+    font-size: 8pt;
 }
 
 section {
@@ -46,7 +48,7 @@ img{
     .cards{
     
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
         justify-content: center;  
     }
 }
