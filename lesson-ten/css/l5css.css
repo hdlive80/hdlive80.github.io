@@ -116,6 +116,9 @@ h1{
  .section2{
    display: none;
  }
+ table{
+   display: none;
+ }
  .section3{
     background-color: #eefafd;
     padding: 30px;

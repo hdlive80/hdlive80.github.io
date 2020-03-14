@@ -36,6 +36,7 @@
     justify-content: center;
  }
  table{
+   display: table;
    width: 100%;
   margin-top: 30px;
  }
