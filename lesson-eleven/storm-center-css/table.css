@@ -1,0 +1,59 @@
+
+table, th, td{
+    width:300px;
+    margin:0 auto;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif ;
+}
+table{
+    box-shadow:5px 5px 5px #999;
+}
+
+table tr:nth-child(1) {
+    background-color:#7fb9c2 ;
+    font-size: 20pt;
+}
+
+table tr:nth-child(2) {
+    background-color:#628ca6;
+    color:white;
+}
+
+table tr:nth-child(3) {
+    background-color:#e7f0ed;
+}
+
+table tr:nth-child(4) {
+    background-color:#e7ffed;
+}
+
+table tr:nth-child(5) {
+    background-color:#e7f0ed;
+}
+
+table tr:nth-child(6) {
+    background-color:#e7ffed;
+}
+
+table tr:nth-child(6) td:nth-child(3) {
+    color:white;
+}
+
+#goalmet{
+    background-color: #628ca6;
+    color:white;
+}
+table tr:nth-child(7) {
+    background-color:#e7f0ed;
+}
+
+table tr:nth-child(8) {
+    background-color:#e7ffed;
+}
+
+table tr:nth-child(9) {
+    background-color:#7fb9c2;
+    font-size: 10pt;
+}

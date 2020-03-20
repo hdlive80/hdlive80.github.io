@@ -1,0 +1,50 @@
+@media only screen and (min-width: 60em) {
+    .navigation{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        color: white;
+        list-style: none;
+        font-size: 20px;
+    }    
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
+
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+    
+    #gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #gallery img{
+      width:100%;
+    }
+
+    .gallery-item:hover {
+      box-shadow: 0 0 50px #333;
+    }
+
+    footer{
+    border-radius: 10px;
+    }
+
+    .weathersummary{
+        width: 35%;
+        top: 30px;
+        margin-left: 30px;
+        height: auto;
+        font-size: 15pt;
+     }
+    }

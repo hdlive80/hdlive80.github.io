@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width:100%;
+    text-align:center;
+}
+.cards{
+    max-width: 100%;
+    display:grid;
+    justify-content: center;
+}
+header{
+    background-color: #EAC67A;
+    color:#233237;
+    padding:10px;
+}
+
+h2{
+    color: #EAC67A;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 1rem;
+    margin: .8rem;
+    background-color: #233237;
+    color: white;
+    text-align: center;
+}
+img{
+    width:70%;
+}
+
+@media only screen and (min-width: 40em) {
+    .cards{
+        
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;  
+    }
+}
+@media only screen and (min-width: 60em) {
+    .cards{
+    
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        justify-content: center;  
+    }
+}

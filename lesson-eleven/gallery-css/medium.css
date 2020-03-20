@@ -1,0 +1,53 @@
+@media only screen and (min-width: 32.5em) {
+    #active{
+        background-color: gold;
+        color:#12343b;
+      }
+    .navigation{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        color: white;
+        list-style: none;
+        font-size: 10px;
+        text-align: center;
+    }    
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
+
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+    .navigation li a{
+        background-color: #2d545e ;
+        color:white;
+    }
+ 
+    #gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #gallery img{
+        width: 100%;
+        
+    }
+    #title{
+        background-color: white;
+        color: #12343b;
+    }
+
+    footer{
+    border-radius: 10px;
+    }
+}
