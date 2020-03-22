@@ -1,6 +1,5 @@
-
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=a5dd040c5a9240563b57042bf760401f';
-const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=a5dd040c5a9240563b57042bf760401f';
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=a5dd040c5a9240563b57042bf760401f';
+const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=a5dd040c5a9240563b57042bf760401f';
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

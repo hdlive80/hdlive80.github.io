@@ -110,7 +110,7 @@ h1{
  hr{
    width: 40%;
    margin-top: -20px;
-
+   background-color:#eefafd;
    border-color: #2d545e;
  }
  .section2{
@@ -118,13 +118,19 @@ h1{
  }
  table{
    display: none;
+   background-color: lightgray;
  }
+ #events{
+  text-align: center;
+  border: 30px solid #2d545e;
+  margin-top: 20px;
+  background-color: lightgray;
+}
  .section3{
-    background-color: #eefafd;
+    background-color: lightgray;
     padding: 30px;
     color: #12343b;
-    border: 1px solid;
-    border-color:#2d545e ;
+    border: 30px solid #2d545e;
     margin-top: 30px;
     position:relative;
     text-align: left;
@@ -140,10 +146,13 @@ h1{
     
 
  }
+ #ref a:link{
+  color:blue;
+}
  .section4{
-    background-color: #eefafd;
+    background-color: lightgray;
     padding-left: 10px;
-    border: 1px solid #2d545e;
+    border: 30px solid #2d545e;
     margin-top: 30px;
     height: auto;
     padding-bottom: 5px;
