@@ -1,0 +1,31 @@
+{
+    "guides":[
+    {
+        "name": "Joan",
+        "lastname":"Holden",
+        "certlevel": "2",
+        "yearexp": "5 years",
+        "email": "joan@salmonriveradventures.com",
+        "imageurl": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Fwomanguide.jpg?v=1586231880367",
+        "bio": "Being from Rexburg Idaho, Joan grew up hiking trail and floating down the beautiful Idaho rivers. She is a wife and new mother to a beautiful baby girl. She favorite outdoor activity is to go camping with her family."
+    },
+    {
+        "name": "Teddie",
+        "lastname":"Drea",
+        "certlevel": "5",
+        "yearexp": "10 years",
+        "email": "teddie@salmonriveradventures.com",
+        "imageurl": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Fmaleguide.jpg?v=1586231859204",
+        "bio": "Teddie is originally from Colorado and recently came back from a year long trip backpacking through Europe. His favorite outdoor activity is playing beach volleyball."
+    },
+    {
+        "name": "Asher Dale",
+        "lastname":"Dale",
+        "certlevel": "6",
+        "yearexp": "20 years",
+        "email": "asher@salmonriveradventures.com",
+        "imageurl": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Folderguide.jpg?v=1586231866587",
+        "bio": "Asher is the co-founder of Salmon River Adventures.  He spent 5 years guiding raft tours down the Grand Canyon before moving back home to Riggins Idaho. His favorite outdoor activity is fishing with his kids."
+    }
+]
+}

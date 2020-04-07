@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1,viewport-fit-cover">
+    <title>Term Project</title>
+    <meta name="description"
+        content="Term Project from Heather Livesay for class CIT230:Web Frontend Development at BYU-I">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div id="top">
+        <div id="Logo"><img id="logo" src="images/paddleslogo.png" alt="double paddle logo"></div>
+        <h1>Salmon River Adventures</h1>
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href="#">&#9776; Menu</a>
+        <li><a id="active" href="home.html">Home</a></li>
+        <li><a href="adventures.html">Adventures</a></li>
+        <li><a href="river-guides.html">Guides</a></li>
+        <li><a href="reservations.html">Reserve</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+        <h2>Adventure Tours</h2>
+        <table id="reserve-table">
+            <tr>
+                <th>4 hour tour</th>
+                <th>2 day tour</th>
+                <th>5 day tour</th>
+                <th>7 day tour</th>
+            </tr>
+            <tr>
+                <th>beginner</th>
+                <th>intermediate</th>
+                <th>advanced</th>
+                <th>advanced</th>
+            </tr>
+            <tr>
+                <th>$75</th>
+                <th>$400</th>
+                <th>$1600</th>
+                <th>$2100</th>
+            </tr>
+        </table>
+    </section>
+    <section id="reservation-form">
+        <h2>Reservation Form</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required pattern="(?=.*[a-z])(?=.*[A-Z]).{5,}">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com">
+                </div>
+                <div>
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Adventure Selection</legend>
+                <div>
+                    <label for="adventure-selection"></label>
+                    <select name="adventure" id="adventure-selection">
+                        <option value="">--Select Adventure--</option>
+                        <option value="four-hour">4 Hour Tour</option>
+                        <option value="two-day">2 Day Tour</option>
+                        <option value="five-day">5 Day Tour</option>
+                        <option value="seven-day">7 Day Tour</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start-date">
+                </div>
+                <div>
+                    <label for="comments">Additional Information or Comments:<br></label>
+                    <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</main>
+<footer>
+    <p id="copyright">&copy; 2020 | Heather Livesay | Texas | <a href="https://www.byui.edu/online">Online Learning</a>
+    </p>
+    <p> Last Modified:
+        <script src="java/ham.java"></script>
+
+</footer>
+</div>
+
+</html>

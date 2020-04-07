@@ -1,0 +1,73 @@
+@media only screen and (min-width: 60em) {
+
+    
+    .navigation{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        color: #f6f4f2;
+        list-style: none;
+    }    
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
+
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+    .call-to-action{
+        padding: 10px;
+        font-size: 25pt;
+        width: 300px;
+        height: 250px;
+        left: 61%;
+     }
+     #trips{
+        display:grid;
+             grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      #reserve-table{
+        max-width: 700px;
+      }
+      form div{
+        margin-left: 30%;
+      }
+      #map{
+        width: 25%;
+         height: 200px;
+         margin-top: -20px;
+         margin-left:15%;
+        }
+        #contact{
+          margin-top: 50px;
+          margin-bottom: 110px;
+        }
+        #social-media{
+          float: right;
+          margin-top: -80px;
+          margin-right: 20%;
+        }
+}
+
+@media only screen and (min-width: 80em) {
+    .call-to-action{
+        font-size:30pt;
+        height:300px;
+        width:400px;
+        left: 65%;
+    }
+      }
+
+@media only screen and (min-width: 100em) {
+    .call-to-action{
+        font-size:30pt;
+        left: 65%;
+        height: 300px;
+        width: 500px;
+    }
+}
