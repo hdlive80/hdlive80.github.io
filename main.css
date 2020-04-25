@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body{
+    max-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    background-color:#6495ED;
+    color:#FAEBD7;
+    text-align: right;
+    font-family: 'Lora', serif;
+    padding: 20px;
+    padding-top: 20px;  
+}
+header a{
+    color: #FAEBD7;
+    text-decoration: none;
+}
+header a:visited{
+    color: #FAEBD7;
+    text-decoration: none;
+}
+header a:active{
+    color:#DEB887;
+}
+header a:hover{
+    color:white;
+    text-decoration: underline;
+}
+header li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+main{
+    background-color: #FAEBD7;
+    font-family: Helvetica, Arial, sans-serif;
+    padding:20px;
+}
+main a{
+    color:#6495ED;
+    text-decoration: none;
+}
+main a:visited{
+    color:#6495ED;
+    text-decoration: none;
+}
+main a:active{
+    color: #DEB887;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+article{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px #888888;
+}
+.post-date{
+    color:gray;
+    margin-bottom: -10px;
+}
+.post-content h2 a{
+    color:black;
+}
+.post-content h2 a:visited{
+    color:black;
+}
+.post-content h2 a:active{
+    color: #DEB887;
+    text-decoration: none;
+}
+.post-content h2 a:hover{
+    color:#6495ED;
+    text-decoration: underline;
+}
+.post-content h2{
+    font-family:'Lora', serif; 
+    margin-bottom: 65px;
+}
+img{
+    width: 200px ;
+    height: auto;
+    
+}
+p{
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 60em) {
+body{
+    max-width: 950px;
+}
+header{
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    margin-right: 20px;
+}
+header a{
+    padding: 10px
+}
+h1{
+    font-size: 26pt;
+}
+article{
+    max-width: 500px;
+    margin-right: 50px;
+    margin-left: auto;
+    margin-top: 30px;
+}
+img{
+   margin-left: 100px;
+   width: 240px;
+}
+}
