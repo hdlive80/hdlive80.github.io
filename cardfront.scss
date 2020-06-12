@@ -1,8 +1,32 @@
+
 //variables to setup basic size and shape of the card and pips
 $card-width: 40vw;
 $card-height: $card-width*1.4;
 $font-size-number: $card-width * 0.1;
 $icon-size: $card-width / 5;
+
+$num-columns : 8;
+$one-column : 100% / $num_columns;
+$loop-start: 1;
+$loop-end: $num-columns +1;
+$one-column: 12.5%;
+
+@mixin col($span-num) {
+    flex: 0 0 12.5% * $span-num;
+}
+
+@mixin offset($offset-num) {
+    margin-left: 12.5% * $offset-num;
+    }
+
+
+@mixin col($span-num) {
+flex: 0 0 $one-column * $span-num;
+}
+
+@mixin offset($offset-num) {
+margin-left: $one-column * $offset-num;
+}  
 
 *,
 *:before,
@@ -29,17 +53,6 @@ $icon-size: $card-width / 5;
   
     padding: .5em;
 }
-
-.row{
-    display: grid;
-    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
-    grid-template-rows: 14vw 14vw 14vw 14vw;
-    align-items: center;
-    align-content: space-between;
-    height: 100%;
-}
-
-
 //set icon size
 .icon {
     width: $icon-size;
@@ -60,6 +73,18 @@ $icon-size: $card-width / 5;
 .rotate {
     transform: rotate(180deg);
 }
+
+.row{
+    display: grid;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+    grid-template-rows: 14vw 14vw 14vw 14vw;
+    align-items: center;
+    align-content: space-between;
+    height: 100%;
+}
+
+
+
 .top-number{
     grid-column: 1;
     grid-row: 1;
@@ -99,3 +124,34 @@ $icon-size: $card-width / 5;
     grid-column: 5;
     grid-row: 4;
 }
+
+
+@supports not (display: grid) {
+	// All of your flexbox SCSS code here. 
+ .row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-between;
+    height: 100%;
+}
+
+.cell {
+    flex: 1;
+    text-align: center;
+}
+
+ //make column classes 
+ @for $index from $loop-start to $loop-end {
+    .col-#{$index} {
+        @include col($index);
+    }
+}
+
+//make offset classes
+@for $index from $loop-start to $loop-end {
+    .offset-#{$index} {
+        @include offset($index);
+    }
+}
+} 
