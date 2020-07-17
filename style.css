@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Roboto&display=swap");
+h1 {
+  font-family: "Merriweather", serif;
+  color: #8a463b;
+  font-size: 1.75rem;
+  margin: 0 0 0 1.25rem;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0 0 0 1.25rem;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  margin: 0 0 0 1.25rem;
+  color: #52798d;
+  padding-top: 1rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+.select,
+.archives,
+.resources {
+  text-align: center;
+}
+
+header {
+  height: 10.8rem;
+  text-align: left;
+  border-bottom: 1px solid #4d4d4d;
+  background-color: #e19b55;
+  animation-name: sunsetColor;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+header h2 {
+  color: #52798d;
+}
+@media (min-width: 70em) {
+  header {
+    padding: 5rem 0 1.5rem 8rem;
+    text-align: left;
+    height: auto;
+  }
+}
+
+@keyframes sunsetColor {
+  0% {
+    background-color: #191970;
+  }
+  25% {
+    background-color: #e19b55;
+  }
+  50% {
+    background-color: #87CEEB;
+  }
+  75% {
+    background-color: #e19b55;
+  }
+  100% {
+    background-color: #191970;
+  }
+}
+.extra1 {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  border: none;
+  background-color: #FEC34D;
+  animation-name: sunMove;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+@media (min-width: 70em) {
+  .extra1 {
+    position: absolute;
+    top: 3rem;
+    right: 20rem;
+  }
+}
+
+@keyframes sunMove {
+  0% {
+    background-color: white;
+    right: 2rem;
+    top: 6rem;
+  }
+  25% {
+    background-color: #FEC34D;
+    right: 8.5rem;
+    top: 2rem;
+  }
+  50% {
+    background-color: #FEC34D;
+    right: 15rem;
+    top: 1rem;
+  }
+  75% {
+    background-color: #FEC34D;
+    right: 21.5rem;
+    top: 3rem;
+  }
+  100% {
+    background-color: white;
+    opacity: 0.7;
+    right: 26rem;
+    top: 6rem;
+  }
+}
+.summary {
+  text-align: center;
+  background-color: #8a463b;
+  color: #F2CEAE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.summary p:nth-child(2) {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.summary p:nth-child(2) a {
+  color: #52798d;
+}
+@media (min-width: 70em) {
+  .summary {
+    margin-left: 20%;
+  }
+}
+
+header::before {
+  content: url(images/desert300w.png);
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+}
+@media (min-width: 70em) {
+  header::before {
+    content: url(images/desert.png);
+    position: absolute;
+    top: 0;
+  }
+}
+
+#zen-preamble {
+  margin: 0;
+}
+@media (min-width: 70em) {
+  #zen-preamble {
+    margin-left: 20%;
+  }
+}
+
+#zen-supporting {
+  margin: 0;
+}
+@media (min-width: 70em) {
+  #zen-supporting {
+    margin-left: 20%;
+  }
+}
+
+.preamble {
+  background-color: #f0cdaa;
+  padding-bottom: 10px;
+}
+
+.explanation::before {
+  content: url(images/barrel100w.png);
+  float: right;
+  padding: 1rem;
+}
+
+.requirements::before {
+  content: url(images/saguaro125w.png);
+  padding: 1rem;
+  float: right;
+}
+@media (min-width: 70em) {
+  .requirements::before {
+    position: absolute;
+    left: 25vw;
+    z-index: -1;
+    opacity: 0.8;
+  }
+}
+
+#zen-supporting {
+  background-color: #f0cdaa;
+}
+
+.design-selection::before {
+  content: url(images/prickly100w.png);
+  padding: 1rem;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.design-selection {
+  background-color: #8a463b;
+  color: #e19b55;
+  margin-top: -15px;
+  padding-bottom: 5px;
+}
+.design-selection a {
+  color: beige;
+}
+@media (min-width: 70em) {
+  .design-selection {
+    height: 480px;
+    width: 20%;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    padding-top: 20px;
+    background-color: #e19b55;
+    margin-top: 202px;
+    margin-left: 8px;
+    z-index: 100;
+    color: #52798d;
+  }
+  .design-selection a {
+    color: #8a463b;
+  }
+}
+
+.design-selection nav > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.design-selection nav > ul li {
+  list-style: none;
+  padding: 0.75rem 0.5rem;
+}
+.design-selection nav > ul li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+@media (min-width: 70em) {
+  .design-selection nav > ul {
+    display: inline;
+    text-align: center;
+  }
+}
+
+.design-archives nav > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+@media (min-width: 70em) {
+  .design-archives nav > ul {
+    display: inline;
+  }
+}
+.design-archives nav > ul li {
+  list-style: none;
+  padding: 0.75rem 0.5rem;
+  background-color: #8a463b;
+  border-radius: 5px;
+  width: 150px;
+  margin: auto;
+}
+@media (min-width: 70em) {
+  .design-archives nav > ul li {
+    width: 150px;
+    margin-top: 10px;
+  }
+}
+.design-archives nav > ul li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: beige;
+}
+
+.design-archives {
+  background-color: #e19b55;
+  margin-top: -16px;
+  padding-bottom: 5px;
+}
+@media (min-width: 70em) {
+  .design-archives {
+    height: 127%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #e19b55;
+    margin-top: 700px;
+    margin-left: 8px;
+  }
+}
+
+.css-resources::before {
+  content: url(images/saguaro50w.png);
+}
+
+.zen-faq::before {
+  content: url(images/barrel50w.png);
+}
+
+.view-css::before {
+  content: url(images/prickly50w.png);
+}
+
+.zen-submit::before {
+  content: url(images/prickly50w.png);
+}
+
+.zen-translations::before {
+  content: url(images/cactus50w.png);
+}
+
+.zen-resources {
+  border-top: 1px solid #4d4d4d;
+  text-transform: uppercase;
+  background-color: #52798d;
+  padding-bottom: 5px;
+}
+.zen-resources h3 {
+  color: #8a463b;
+}
+.zen-resources a {
+  color: beige;
+}
+@media (min-width: 70em) {
+  .zen-resources {
+    margin-left: 20%;
+    height: 150px;
+  }
+}
+
+.zen-resources ul {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.zen-resources ul li {
+  list-style: none;
+  padding: 0.75rem 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 70em) {
+  .zen-resources ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.zen-translations {
+  grid-column: 1/3;
+}
+
+footer {
+  position: relative;
+  top: 790px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  background-color: #8a463b;
+}
+footer a {
+  color: beige;
+}
+@media (min-width: 70em) {
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    top: 215px;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #e19b55;
+}
+
+/*# sourceMappingURL=style.css.map */

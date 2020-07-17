@@ -1,0 +1,25 @@
+footer {
+    
+    position: relative;
+    top:790px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: $secondary-font;
+    background-color: $color-2;
+    a{
+        color: beige;
+    }
+    @media (min-width: $break-large) {
+        & {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            justify-content: space-evenly;
+            top: 215px;
+            
+        
+            
+        }
+    }
+}

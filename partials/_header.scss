@@ -1,0 +1,90 @@
+header {
+    height: 10.8rem;
+    text-align: left;
+    border-bottom: 1px solid $color-5;
+    background-color: $color-4;
+    animation-name: sunsetColor;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    h2{
+        color:$color-1;
+    }
+    @media (min-width: $break-large) {
+        padding: 5rem 0 1.5rem 8rem;
+        text-align: left;
+        height: auto;
+    }
+    
+}
+@keyframes sunsetColor {
+    0%   {background-color: #191970;}
+    25%  {background-color: $color-4;}
+    50% {background-color: #87CEEB;}
+    75%{ background-color: $color-4}
+    100% {background-color:#191970;}
+  }
+
+  .extra1 {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    border: none;
+    background-color: #FEC34D;
+    animation-name: sunMove;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    @media (min-width: $break-large) {
+        position: absolute;
+        top: 3rem;
+        right: 20rem;
+    }
+}
+@keyframes sunMove {
+    0%   {background-color: white;right:2rem; top:6rem;}
+    25%  {background-color: #FEC34D;right: 8.5rem; top:2rem;}
+    50% {background-color: #FEC34D;right: 15rem; top:1rem;}
+    75% {background-color: #FEC34D;right: 21.5rem; top:3rem;}
+    100% {background-color: white; opacity: .7; right: 26rem; top:6rem;}
+}
+.summary {
+    text-align: center;
+    background-color: $color-2;
+    color: #F2CEAE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+    p:nth-child(2) {
+        padding: 1rem;
+        text-transform: uppercase;
+        
+    a{
+        color:$color-1;
+    }
+    }
+    @media (min-width: $break-large) {
+        margin-left: 20%;
+    }
+}
+header::before {
+    content: url(images/desert300w.png);
+    position: absolute;
+    top:4rem;
+    right: 3rem;
+    
+    @media (min-width: $break-large) {
+        content: url(images/desert.png);
+        position: absolute;
+        top: 0;
+        
+    }
+    
+
+}

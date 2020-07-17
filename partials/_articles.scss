@@ -1,0 +1,45 @@
+#zen-preamble {
+    margin: 0;
+    @media (min-width: $break-large) {
+        & {
+            margin-left: 20%;
+
+        }
+    }
+}
+#zen-supporting {
+    margin: 0;
+
+    @media (min-width: $break-large) {
+        & {
+            margin-left: 20%;
+
+        }
+    }
+}
+
+.preamble{
+    background-color: $color-4opacity;
+    padding-bottom: 10px;
+}
+.explanation::before {
+    content: url(images/barrel100w.png);
+    float: right;
+    padding: 1rem;
+
+}
+.requirements::before {
+    content: url(images/saguaro125w.png);
+    padding: 1rem;
+    float: right;
+    @media (min-width: $break-large) {
+        position: absolute;
+        left: 25vw;
+        z-index: -1;
+        opacity: .8;
+    }
+    
+}
+#zen-supporting{
+    background-color: $color-4opacity;
+}

@@ -1,0 +1,40 @@
+
+h1 {
+    font-family: $primary-font;
+    color: $color-2;
+    font-size: 1.75rem;
+    margin: $left-text-margin;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 18px;
+    margin: $left-text-margin;
+
+
+}
+
+h3 {
+    font-family: $primary-font;
+    margin: $left-text-margin;
+    color: $color-6;
+    padding-top: 1rem;
+}
+
+p {
+    font-family: $secondary-font;
+    padding: $p-padding;
+}
+
+a {
+    color:$color-5;
+    text-decoration: none;
+}
+
+.select,
+.archives,
+.resources {
+    text-align: center;
+}

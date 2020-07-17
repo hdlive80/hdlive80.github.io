@@ -1,0 +1,108 @@
+.design-selection::before {
+    content: url(images/prickly100w.png);
+    padding: 1rem;
+    position: absolute;
+    z-index: -1;
+    opacity: .8;
+}
+
+
+.design-selection {
+    background-color: $color-2;
+    color: $color-4;
+    margin-top: -15px;
+    padding-bottom: 5px;
+    a{
+        color: beige;
+    }
+    @media (min-width: $break-large) {
+        & {
+            height: 480px;
+            width: 20%;
+            position: absolute;
+            top: -7px;
+            left: 0;
+            padding-top: 20px;
+            background-color: $color-4;
+            margin-top: 202px;
+            margin-left: 8px;
+            z-index: 100;
+            color: $color-1;
+            a{
+                color:$color-2;
+            }
+        }
+
+    }
+}
+.design-selection nav>ul {
+    display: grid;
+    grid-template-columns: $col-2;
+    column-gap: 10px;
+
+    li {
+        list-style: none;
+        padding: .75rem .5rem;
+
+        a {
+            font-family: $secondary-font;
+            text-decoration: none;
+        }
+    }
+
+    @media (min-width: $break-large) {
+        & {
+            display: inline;
+            text-align: center;
+        }
+    }
+}
+
+
+.design-archives nav>ul {
+    display: grid;
+    grid-template-columns: $col-2;
+    column-gap: 10px;
+    @media (min-width: $break-large) {
+        display: inline;
+    }
+    li {
+        list-style: none;
+        padding: .75rem .5rem;
+        background-color: $color-2;
+        border-radius: 5px;
+        width: 150px;
+        margin: auto;
+        @media (min-width: $break-large) {
+            width: 150px;
+            margin-top: 10px;
+        }
+
+        a {
+            font-family: $secondary-font;
+            text-decoration: none;
+            color:beige;
+        }
+    }
+}
+
+.design-archives {
+    background-color: $color-4;
+    margin-top: -16px;
+    padding-bottom: 5px;
+    
+    
+    @media (min-width: $break-large) {
+        & {
+            height:127%;
+            width: 20%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            background-color: $color-4;
+            margin-top: 700px;
+            margin-left: 8px;
+        }
+    }
+}
